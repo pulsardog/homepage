@@ -1,0 +1,1029 @@
+/* CSS Document */
+
+
+body { color:#333333; font-size:9pt; line-height:14pt; font-family:Arial,Helvetica,Sans-Serif; padding-left:8px; background-color: #FFFFFF; }
+ul{ list-style-type: square; }
+em, address { font-style: italic; }
+abbr, acronym { border-bottom: 1px dotted #333333; cursor: help; }
+code{ background: #d0d0d0; }
+
+
+/* Divs */
+
+/* Kopf-Elemente */
+
+
+#logo {
+	position:absolute;
+	left:65px;
+	top:12px;
+	width:185px;
+	height:72px;
+	z-index:1;
+}
+
+#titel {
+	position:absolute;
+	left:256px;
+	top:44px;
+	width:639px;
+	height:36px;
+}
+
+#kopf {
+	position:absolute;
+	left:0px;
+	top:110px;
+	width:734px;
+	height:120px;
+	background: #9FB672;
+	z-index:3;
+}
+
+#piktogramm {
+	position:absolute;
+	left:94px;
+	top:165px;
+	width:auto;
+	height:60px;
+	z-index:3;
+}
+
+#logo_einr {
+	position:absolute;
+	left:736px;
+	top:7px;
+	width:auto;
+	height:74px;
+	z-index:3;
+}
+
+#Kopfbild1 {
+	position:absolute;
+	left:250px;
+	top:84px;
+	width:484px;
+	height:120px;
+	z-index:3;
+}
+
+#Kopfbild2 {
+	position:absolute;
+	left:734px;
+	top:84px;
+	width:242px;
+	height:120px;
+	z-index:3;
+}
+
+
+#history {
+	position:absolute;
+	left:250px;
+	top:230px;
+	width:484px;
+	height:13px;
+	z-index:11;
+	text-align:left;
+}
+
+#history a {
+	color : #B6C828;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	text-decoration : none;
+	font-size : 12px;
+}
+
+
+#pulldown {
+	position:absolute;
+	left:252px;
+	top:208px;
+	width:884px;
+	height:0px;
+	z-index:100;
+}
+
+#pulldown a {
+	color : #000000;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-weight : bold;
+	text-decoration : none;
+	font-size : 8pt;
+}
+
+#language {
+	position:absolute;
+	left:935px;
+	top:20px;
+	width:80px;
+	height:38px;
+	z-index:45;
+}
+
+#che-logo {
+        position:absolute;
+        left:855px;
+        top:6px;
+        width:80px;
+        height:38px;
+        z-index:45;
+}
+
+#geniale-logo {
+        position:absolute;
+        left:665px;
+        top:20px;
+        width:80px;
+        height:38px;
+        z-index:1;
+}
+
+
+#suche {
+	position:absolute;
+	left:767px;
+	top:212px;
+	width:220px;
+	height:13px;
+	z-index:300;
+	text-align:left;
+}
+
+#suche a {
+	color : #666666;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : bold;
+	text-decoration : none;
+	font-size : 10pt;
+}
+
+#linkkopf {
+	position:absolute;
+	left:640px;
+	top:208px;
+	width:auto;
+	height:13px;
+	z-index:110;
+	text-align:left;
+}
+
+#linkkopf a {
+	color : #ffffff;
+	font-family : Verdana, Helvetica, sans-serif;
+	font-weight : bold;
+	text-decoration : none;
+	font-size : 8pt;
+}
+
+/* Content */
+
+
+
+#contentwide {
+	position:absolute;
+	top: 264px;
+	left:250px;
+        width: 727px;
+	height:auto;
+	z-index:5;
+	margin-top: 0px;
+        padding:0;
+}
+
+* html #contentwide {
+	position:absolute;
+	top: 264px;
+	left:250px;
+        width: 727px;
+	height:auto;
+	z-index:5;
+	margin-top: 0px;
+        padding:0;
+}
+
+#contenthauptspalte {
+	position:relative;
+	top: 0px;
+	left:0px;
+        width: 484px;
+	height:auto;
+	z-index:5;
+        min-height:60em;
+
+}
+
+#contentspaltelinks {
+	position:relative;
+	left:0px;
+	top:10px;
+	width:216px;
+	height:auto;
+	z-index:5;
+	margin: 10px;
+        border-width:0px;
+        border-style:solid;
+        border-color:#9FB672;
+        padding:5px 5px 0px 5px;
+}
+
+
+#contentspaltelinks2 {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:216px;
+	height:auto;
+	z-index:5;
+	margin: 10px;
+        padding-bottom:0px;
+        padding-top:5px;
+        padding-right:5px;
+        padding-left:5px;
+}
+
+#contentspalterechts {
+	position:relative;
+	left:220px;
+	top:10px;
+	width:216px;
+	height:auto;
+	z-index:5;
+	margin: 10px;
+        padding:5px 5px 0px 5px;
+}
+
+#contentbox{
+	position:relative;
+	left:0px;
+	top:10px;
+	width:452px;
+	height:auto;
+	margin: 10px 0px;
+        border:1px dotted #B6C828;
+        padding:15px;
+}
+
+#contentboxlinks {
+	position:relative;
+	left:0px;
+	top:0px;
+	width:205px;
+         height:auto;
+	margin: 10px 10px 10px 0px;
+        border:1px dotted #B6C828;
+        padding:15px;
+        float:left;
+}
+#contentboxrechts {
+	position:relative;
+	left:0px;
+	top: 0px;
+	width:205px;
+	height:auto;
+	margin: 10px 0px 10px 10px;
+        border:1px dotted #B6C828;
+        padding:15px;
+        float: right;
+}
+#contentboxtermine {
+	position:relative;
+	left:0px;
+	top:5px;
+	width:195px;
+	height:auto;
+	margin-top: 10px;
+        border: 1px #aaa dotted;
+        background: #E9EEF3;
+       float: right; padding: .4em;
+}
+
+
+#infoboxrechts{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:198px;
+	height:auto;
+	z-index:5;
+	margin-top: 10px;
+        border: 1px #aaa dotted;
+        background: #ffffff;
+        float: right;
+        padding: .4em;
+}
+
+* html #infoboxrechts{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:194px;
+	height:auto;
+	z-index:5;
+	margin-top: 10px;
+        border: 1px #aaa dotted;
+        background: #ffffff;
+        float: right;
+        padding: .4em;
+}
+
+* + html #infoboxrechts{
+	position:relative;
+	left:0px;
+	top:0px;
+	width:194px;
+	height:auto;
+	z-index:5;
+	margin-top: 10px;
+        border: 1px #aaa dotted;
+        background: #ffffff;
+        float: right;
+        padding: .4em;
+}
+
+
+#contentboxuebersicht {
+	position:relative;
+	left:0px;
+	top:2px;
+	width:195px;
+	height:auto;
+	z-index:25;
+	margin-top: 0px;
+        border: 1px #aaa dotted; background: #E9EEF3; float: right; padding: .4em;
+}
+
+
+/* Fussbereich */
+
+#footer {
+	position:absolute;
+	left:252px;
+	top:auto;
+	width:420px;
+	height:75px;
+	z-index:6;
+}
+
+#fussstrich {
+	position:relative;
+	left:0px;
+	width:725px;
+	height:13px;
+	z-index:11;
+	text-align:left;
+	border-bottom: 1px #B6C828 dashed;
+}
+
+#fussmenu {
+	position:absolute;
+	left:4px;
+        top:-20px;
+	top:auto;
+	height:75px;
+	z-index:6;
+}
+
+#fussmenu a {
+	color : #999999;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	text-decoration : none;
+	font-size : 8pt;
+}
+
+#fussmenu li {
+	display:inline;
+	list-style-type:none;
+	padding: 0px 18px 0px 0px;
+}
+
+
+/* Menue */
+
+#menubereich {
+	position:absolute;
+	left:20px;
+	top:257px;
+	width:208px;
+	height:auto;
+	z-index:21;
+        border-width:0px;
+        border-style:solid;
+        border-color:#9FB672;
+        padding:0;
+}
+
+* html #menubereich {
+	position:absolute;
+	left:20px;
+	top:257px;
+	width:208px;
+	height:auto;
+	z-index:21;
+        border-width:0px;
+        border-style:solid;
+        border-color:#9FB672;
+        padding:0;
+}
+
+#menubereich a {
+	font-weight : normal;
+        color: #000000;
+	text-decoration: none;
+	font-size : 10pt;
+	font-family : Arial, Helvetica, sans-serif;
+        border-bottom-width: 1px;
+        border-bottom-style: dashed;
+        border-bottom-color: #B6C828;
+}
+
+#menubereich a.active {
+	font-weight : normal;
+        color: #444444;
+	text-decoration: none;
+	font-size : 10pt;
+        font-weight: bold;
+	font-family : Arial, Helvetica, sans-serif;
+        border-bottom-width: 1px;
+        border-bottom-style: dashed;
+        border-bottom-color: #B6C828;
+}
+
+#menulinks {
+	left:0px;
+	top:22px;
+	width:180px;
+        height:auto;
+	z-index:30;
+	font-family : Arial, Helvetica, sans-serif;
+        border-width: 0px;
+        border-style: solid;
+        border-color: #9FB672;
+        padding: 0.5em;
+}
+
+
+#menulinks2 {
+	left:0px;
+	top:auto;
+	width:180px;
+	height:auto;
+	z-index:30;
+	font-family : Arial, Helvetica, sans-serif;
+        border-width:0px;
+        border-style:solid;
+        border-color:#9FB672;
+        padding:0.5em;
+}
+
+#menulinks3 {
+	left:0px;
+	top:auto;
+	width:180px;
+	height:auto;
+	z-index:30;
+	font-family : Arial, Helvetica, sans-serif;
+        border-width:0px;
+        border-style:solid;
+        border-color:#9FB672;
+        padding:0.5em;
+}
+
+#menulinks4 {
+	left:0px;
+	top:auto;
+	width:180px;
+	height:auto;
+	z-index:30;
+	font-family : Arial, Helvetica, sans-serif;
+        border-width:0px;
+        border-style:solid;
+        border-color:#9FB672;
+        padding:0.5em;
+}
+
+#contentmenuebox
+{
+	left:0px;
+	top:auto;
+	width:208px;
+	height:auto;
+	z-index:21;
+        border-width:1px;
+        border-style:solid;
+        border-color:#9FB672;
+        padding:0;
+}
+
+
+#menuboxrechts{
+	position:absolute;
+	left:747px;
+	top:12px;
+	width:208px;
+	height:auto;
+	z-index:3;
+	margin-top: -4px;
+        border: 0px #aaa dotted; 
+	background: #FFFFFF; 
+	float: right; 
+	padding-left:0px;  
+	padding-right:0px; 
+	padding-bottom:20px;
+}
+
+* html #menuboxrechts{
+	position:absolute;
+	left:747px;
+	top:12px;
+	width:208px;
+	height:auto;
+	z-index:1;
+	margin-top: 0px;
+        border: 0px #aaa dotted; 
+	background: #FFFFFF; 
+	float: right; 
+	padding-bottom:20px;
+}
+
+#seitenbox{
+	position:absolute;
+	left:524px;
+	top:5px;
+	width:198px;
+	height:auto;
+	margin-top: 0px;
+        border: 0px #aaa dotted; background: #FFFFFF; float: right; padding: .4em;
+}
+
+* html #seitenbox{
+	position:absolute;
+	left:516px;
+	top:5px;
+	width:198px;
+	height:auto;
+	margin-top: 0px;
+        border: 0px #aaa dotted; background: #FFFFFF; float: right; padding: .4em;
+}
+
+* + html #seitenbox{
+	position:absolute;
+	left:516px;
+	top:5px;
+	width:198px;
+	height:auto;
+	margin-top: 0px;
+        border: 0px #aaa dotted; background: #FFFFFF; float: right; padding: .4em;
+}
+
+#seitenboxrechts{
+	position:absolute;
+	left:517px;
+	top:5px;
+	width:198px;
+	height:auto;
+	margin-top: 0px;
+        border: 1px #aaa dotted; background: #FFFFFF; float: right; padding: .4em;
+}
+
+.menurechts  {
+	font-weight : bold;
+        color: #336699;
+	text-decoration: none;
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	vertical-align : bottom;
+	padding: 2px 5px 1px;
+}
+
+#content_full{
+        width:727px;
+}
+
+/* Links */
+
+
+a  {
+	font-weight : bold;
+        color: #20496E;
+	text-decoration: none;
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+a.nohover {
+	/*font-weight : normal;*/
+	text-decoration:none;
+    color: #336699;
+	/*font-size : 9pt;*/
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+a.nohover:hover  {
+	/*font-weight : normal;*/
+	text-decoration:none;
+    color: #336699;
+
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+/* Pfeil- und Plus-Symbole */
+
+#pfeil1{
+  margin-right: 5px;
+  float: left;
+  vertical-align: text-bottom;
+}
+
+#pfeil2{
+  margin-right: 5px;  
+  float: left;
+  vertical-align: text-bottom;
+}
+
+#pluszeichen{
+  vertical-align:text-bottom;
+  margin-right: 5px;
+}
+
+/* Corporate Design Center */
+
+#contentwide_CD {
+	width:727px;
+	min-height:1800px;
+}
+
+.kurze_spalte_links {
+	height:auto;
+	width:484px;
+	float:left;
+}
+
+.kurze_spalte_rechts {
+	height:auto;
+	width:212px;
+	float:right;
+}
+
+.lange_spalte { /*für die langen tabellen und text der über die gesamte breite des "contentwide" laufen soll*/
+	height:auto;
+	width:727px;
+}
+
+.rot {
+	color:#e20016;
+}
+
+#tabelle_CD {
+	font-family: Arial;
+	font-size: 12px;
+	background:#ffffff;
+	width: 100%;
+	empty-cells: show;
+	text-align:left;
+         margin-bottom: 20px;
+}
+
+#tabelle_CD th {
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	padding: 5px;
+	border-bottom: 1px solid #000000;
+}
+
+#tabelle_CD td {
+	border-bottom: 1px dotted #ccc;
+	border-right: 1px dotted #ccc;
+	color: gray;
+	padding: 5px;
+	vertical-align:middle;
+}
+
+#tabelle_CD .anmerkung {
+	border-right: 0px dotted #ccc;
+}
+
+#tabelle_CD tbody tr:hover td {
+	color: #000000;
+}
+
+/* Auszeichnungen */
+
+.select-language  {
+	font-weight : bold;
+        color: #6F758D;
+	font-size : 10pt;
+	font-family : Arial, Helvetica, sans-serif;
+        text-decoration : none;
+}
+p {color:#333333; font-size:9pt;line-height:14pt;font-family:Arial,Helvetica,Sans-Serif;padding-left:0px;}
+uewhite {color:#ffffff; font-size:10pt;font-family:Arial,Helvetica,Sans-Serif;padding-left:8px;font-weight:bold;}
+.uegreen { color: #008853; font-weight: bold; font-size: 12pt; font-family: Arial, Helvetica, sans-serif; text-decoration: none }
+.uegreen11 { color: #008853; font-weight: bold; font-size: 11pt; font-family: Arial, Helvetica, sans-serif; text-decoration: none }
+.uedklblue11  { color: #36c; font-weight: bold; font-size: 11pt; font-family: Arial, Helvetica, sans-serif; text-decoration: none }
+.uegray11 { color: #333; font-weight: bold; font-size: 11pt; font-family: Arial, Helvetica, sans-serif; text-decoration: none }
+.meldunggray   { color: #282828; font-size: 9pt; font-family: Arial, Helvetica, sans-serif; text-decoration: none }
+td {color:#333333; font-size:9pt;line-height:14pt;font-family:Arial,Helvetica,Sans-Serif;}
+/* ul { list-style-type: square;} */
+li {color:#333333; font-size:9pt;line-height:14pt;font-family:Arial,Helvetica,Sans-Serif;}
+.siteindex {color: #000000; font-weight : bold; font-size : 8pt; font-family : Verdana, Arial, Helvetica, sans-serif; text-decoration : none; background-color : #E0EB98;	margin-left : 5px; }
+a.siteindex { background-color : transparent; }
+.siteindexneu {
+	font-weight : bold;
+        color: #000000;
+	text-decoration: none;
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+        background-color : #E0EB98;
+        }
+a.siteindexneu { background-color : transparent; }
+
+
+.siteindexgreen           { 	font-weight : bold;
+        color: #000000;
+	text-decoration: none;
+	font-size : 8pt;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+        background-color : #E0EB98;
+        }
+a.siteindexgreen {
+	background-color : transparent;
+}
+
+
+.uemenu {
+        color: #336699;
+        font-weight : bold;
+        font-size : 8pt;
+        font-family : Verdana, Arial;
+        text-decoration : none;
+}
+
+
+.footer {
+	color : #909090;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	text-decoration : none;
+	font-size : 8pt;
+}
+.footerblack {
+	color : #000000;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	text-decoration : none;
+	font-size : 8pt;
+}
+.copyright {
+	color : #909090;
+	font-family : Arial, Helvetica, sans-serif;
+	font-weight : normal;
+	text-decoration : none;
+	font-size : 8pt;
+	font-style : italic;
+}
+
+.titel {
+	font-weight : bold;
+        color: #008853;
+	text-decoration: none;
+	font-size : 10pt;
+	font-family : Arial, Helvetica, sans-serif;
+	vertical-align : bottom;
+}
+
+.titelimg {
+	background-image: url(http://www.uni-bielefeld.de//images/template_2009/menuponits_green.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.menuimgorange {
+	background-image: url(http://www.uni-bielefeld.de//images/template_2009/menuponits_green.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+.menuimggrey {
+	background-image: url(http://www.uni-bielefeld.de//images/template_2009/menuponits_gray.gif);
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.textkategorie  {
+	font-weight : normal;
+        color: #336699;
+	text-decoration: none;
+	font-size : 8pt;
+	font-family : Verdana, Arial, sans-serif;
+	vertical-align : bottom;
+}
+
+
+
+.date {
+        color: #6F758D;
+        font-weight : normal;
+        font-size : 7pt;
+        font-family :  Verdana, Arial;
+        text-decoration : none;
+}
+
+/* Formulare */
+
+input, select, textarea   { color:#333333;  font-weight:bold; font-size:11px;}
+.Bereich, .Feld   { background-color:#FFFFFF; width:146px; border:1px solid #CCCCCC; }
+.Auswahl   { background-color:#FFFFFF; width:75px; border:1px solid #000000; }
+.Button   { background-color:#ffffff; color:#666666; border:1px solid #B6C828; }
+
+
+/* Tabellenfarben */
+
+tr#tabellenkopf {background-color:#d4d0c8;}
+tr#tabelle {background-color:#EFF3F7;}
+
+#tabelle td {
+  padding: 10px;
+}
+
+/* DL-Menueauszeichnungen */
+
+
+ul.menu-left { margin: 0 0 0 10px; border: 1px;  list-style-type: none; }
+ul.menu-left li a { line-height: 16px; background: url(http://www.uni-bielefeld.de//images/template_2009/menuponits_gray.gif) no-repeat; background-position: 0px 4px; display: block; padding: 0px 0 4px 25px; margin: 6px 0px 0px -50px; font-weight: bold; list-style-type: none;}
+* html ul.menu-left li a { margin: 0px 0px 0px 0px; background-position: 0px 6px; padding: 0px 0px 0px 15px;}
+* html ul.menu-left li a.active {margin: 0px 0px 0px 0px; background-position: 0px 6px;}
+* + html ul.menu-left li a {margin-left: 0px; background-position: 0px 6px;}
+* + html ul.menu-left li a.active {margin-left: 0px; background-position: 0px 6px;}
+ul.menu-left li a.active { background: url(http://www.uni-bielefeld.de//images/template_2009/menuponits_green.gif) no-repeat; background-position: 0px 4px;  }
+
+
+/* TOC-Menueauszeichnungen */
+
+ul#menu-toc { margin: 6px 0 0 10px; border: 1px; list-style-type: none; }
+ul#menu-toc li a { line-height: 14px; background: url(http://www.uni-bielefeld.de//images/all/quadrat_grau_klein.gif) no-repeat; background-position: 0px 2px; display: block; padding: 0px 0 4px 15px; margin: 0px 0px 0px -80px; font-weight: normal;   list-style-type: none;}
+* html ul#menu-toc li a { margin: 0px 0px 0px 0px; background-position: 10px 4px; padding: 0px 0px 0px 25px;}
+* html ul#menu-toc li a.active {margin: 0px 0px 0px 0px; background-position: 0px 6px;}
+* + html ul#menu-toc li a {margin-left: 0px; background-position: 0px 6px;}
+* + html ul#menu-toc li a.active {margin-left: 0px; background-position: 0px 6px;}
+ul#menu-toc li a.active { background: url(http://www.uni-bielefeld.de//images/all/quadrat_grau_klein.gif) no-repeat; background-position: 0px 4px;  }
+
+
+ul#menu-toc2 { margin: 2px 0 0 10px; border: 1px; list-style-type: none; }
+ul#menu-toc2 li a { line-height: 14px; background: url(http://www.uni-bielefeld.de//images/all/quadrat_grau_klein.gif) no-repeat; background-position: 0px 2px; display: block; padding: 0px 0 4px 15px; margin: 0px 0px 0px -110px; font-weight: normal;   list-style-type: none;}
+* html ul#menu-toc2 li a { margin: 0px 0px 0px 0px; background-position: 10px 4px; padding: 0px 0px 0px 25px;}
+* html ul#menu-toc2 li a.active {margin: 0px 0px 0px 0px; background-position: 0px 6px;}
+* + html ul#menu-toc2 li a {margin-left: 0px; background-position: 0px 6px;}
+* + html ul#menu-toc2 li a.active {margin-left: 0px; background-position: 0px 6px;}
+ul#menu-toc2 li a.active { background: url(http://www.uni-bielefeld.de//images/all/quadrat_grau_klein.gif) no-repeat; background-position: 0px 4px;  }
+
+ul#menu-toc3 { margin: 2px 0 0 10px; border: 1px; list-style-type: none; }
+ul#menu-toc3 li a { line-height: 14px; background: url(http://www.uni-bielefeld.de//images/all/quadrat_grau_klein.gif) no-repeat; background-position: 0px 2px; display: block; padding: 0px 0 4px 15px; margin: 0px 0px 0px -140px; font-weight: normal;   list-style-type: none;}
+* html ul#menu-toc3 li a { margin: 0px 0px 0px 0px; background-position: 10px 4px; padding: 0px 0px 0px 25px;}
+* html ul#menu-toc3 li a.active {margin: 0px 0px 0px 0px; background-position: 0px 6px;}
+* + html ul#menu-toc3 li a {margin-left: 0px; background-position: 0px 6px;}
+* + html ul#menu-toc3 li a.active {margin-left: 0px; background-position: 0px 6px;}
+ul#menu-toc3 li a.active { background: url(http://www.uni-bielefeld.de//images/all/quadrat_grau_klein.gif) no-repeat; background-position: 0px 4px;  }
+
+ul#menu-toc4 { margin: 2px 0 0 10px; border: 1px; list-style-type: none; }
+ul#menu-toc4 li a { line-height: 14px; background: url(http://www.uni-bielefeld.de//images/all/quadrat_grau_klein.gif) no-repeat; background-position: 0px 2px; display: block; padding: 0px 0 4px 15px; margin: 0px 0px 0px -170px; font-weight: normal;   list-style-type: none;}
+* html ul#menu-toc4 li a { margin: 0px 0px 0px 0px; background-position: 10px 4px; padding: 0px 0px 0px 25px;}
+* html ul#menu-toc4 li a.active {margin: 0px 0px 0px 0px; background-position: 0px 6px;}
+* + html ul#menu-toc4 li a {margin-left: 0px; background-position: 0px 6px;}
+* + html ul#menu-toc4 li a.active {margin-left: 0px; background-position: 0px 6px;}
+ul#menu-toc4 li a.active { background: url(http://www.uni-bielefeld.de//images/all/quadrat_grau_klein.gif) no-repeat; background-position: 0px 4px;  }
+
+
+/* Aufzaehlungslisten mit kleinem gruenem Vor-Strich */
+
+
+ul#listen { margin: 0 0 0 10px; padding: 0 0 0 0;  list-style-type: none; }
+ul#listen li { background: url(http://www.uni-bielefeld.de//Universitaet/Aktuelles/images/tiler_green.gif) no-repeat;  font-weight: normal; background-position: 0px 4px; display: block; padding: 0px 0 6px 15px;   list-style-type: none; }
+ul#listenaktiv li { background: url(http://www.uni-bielefeld.de//Universitaet/Aktuelles/images/tiler_orange.gif) no-repeat; background-position: 0px 4px;}
+
+#listenbox {
+	position:relative;
+	left:0px;
+	top:10px;
+	width:452px;
+	height:auto;
+	margin-top: 0px;
+        background-color:#E0EB98;
+        border-width:1px;
+        border-style:dotted;
+        border-color:#B6C828;
+        padding-top:15px;
+        padding-top:15px;
+        padding-right:15px;
+        padding-left:15px;
+        margin-bottom:30px;
+}
+
+#listenbox a{
+        color:#000000;
+}
+
+/* Balken zur Formatierung der Kontaktseite des IO */
+
+.kontaktbalken{
+  border-left: 2px solid #B6C828;
+  padding-left: 10px;
+  margin: 0 0 30px 200px;
+}
+
+
+/* Aufklappboxen */
+
+.zfl_boxinhauptboxrechtsfloat {
+ position : relative;
+ top : 0px;
+ width : 195px;
+ height : auto;
+ z-index : 5;
+ margin-top : 10px;
+ margin-bottom : 10px;
+ margin-right : auto;
+ margin-left : 10px;
+ border : 1px #aaa dotted;
+ background : #F7F7F7;
+ float : right;
+ padding : 5px;
+ clear : both;
+}
+
+h4,h5,h6  {
+	font-weight : bold;
+        color: #333333;
+	text-decoration: none;
+	font-size : 10pt;
+	font-family : Arial, Helvetica, sans-serif;
+}
+
+/*
+   Resets default browser CSS styles.
+*/
+
+isindex, menu, dir, applet, object, iframe, abbr, acronym, address, big, cite, code,
+del, dfn, ins, kbd, q, s, samp, sup, tt, var,fieldset, form, label, legend {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 101%;
+    font-family: inherit;
+    font-variant: inherit;
+    vertical-align: baseline;
+}
+
+/* Remember to define focus styles! */
+:focus {outline: 0}
+
+/* Remove possible quote marks (") from <q>, <blockquote>. */
+blockquote:before, blockquote:after,
+q:before, q:after {content: none}
+blockquote, q {quotes: none}
+
+/* better readability */
+a:visited {text-decoration: none}
+a:focus {outline: Highlight solid 0.1em}
+
+
+
+/* POSITION & SIZE */
+sup, sub { font-size: 0.7em; line-height: 1em; }
+sub	{ vertical-align: sub; }
+sup	{ vertical-align: super; }
+
+caption { text-align: center; }
+
+hr { clear: both; }
+
+/* TEXT & DECORATION */
+input:focus { outline: 2px solid Highlight; }
+
+acronym, abbr { cursor: help; }
+
+/* Alignment */
+.align-center { text-align: center }
+.align-right { text-align: right }
+.align-left { text-align: left }
+.align-justify { text-align: justify; }
+
+/* Bug Fixing */
+
+/* enable :hover for more than <a> in IE6 */
+* html body { behavior: url("http://www2.physik.uni-bielefeld.de/csshover.htc"); }
+
+/* make transparent pngs work in IE6 */
+* html body { behavior: url('http://www2.physik.uni-bielefeld.de/iepngfix.htc'); }
+
+
+/* Typographic stuff */
+acronym { letter-spacing: 0.07em; }
+
+/****** Ende *****/
+
